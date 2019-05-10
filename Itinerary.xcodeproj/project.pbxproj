@@ -12,6 +12,8 @@
 		A8FB453022851A1000ADB38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FB452E22851A1000ADB38D /* Main.storyboard */; };
 		A8FB453222851A1000ADB38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FB453122851A1000ADB38D /* Assets.xcassets */; };
 		A8FB453522851A1000ADB38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FB453322851A1000ADB38D /* LaunchScreen.storyboard */; };
+		A8FB453F22851A4300ADB38D /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB453E22851A4300ADB38D /* TripModel.swift */; };
+		A8FB454222851B8300ADB38D /* TripFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB454122851B8300ADB38D /* TripFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A8FB453122851A1000ADB38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8FB453422851A1000ADB38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8FB453622851A1000ADB38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FB453E22851A4300ADB38D /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
+		A8FB454122851B8300ADB38D /* TripFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,7 @@
 		A8FB452922851A1000ADB38D /* Itinerary */ = {
 			isa = PBXGroup;
 			children = (
-				A8FB453C22851A1E00ADB38D /* New Group */,
+				A8FB453C22851A1E00ADB38D /* Model */,
 				A8FB452A22851A1000ADB38D /* AppDelegate.swift */,
 				A8FB452C22851A1000ADB38D /* ViewController.swift */,
 				A8FB452E22851A1000ADB38D /* Main.storyboard */,
@@ -65,11 +69,21 @@
 			path = Itinerary;
 			sourceTree = "<group>";
 		};
-		A8FB453C22851A1E00ADB38D /* New Group */ = {
+		A8FB453C22851A1E00ADB38D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A8FB453D22851A2800ADB38D /* Trips */,
 			);
-			path = "New Group";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8FB453D22851A2800ADB38D /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				A8FB453E22851A4300ADB38D /* TripModel.swift */,
+				A8FB454122851B8300ADB38D /* TripFunctions.swift */,
+			);
+			path = Trips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +160,8 @@
 			files = (
 				A8FB452D22851A1000ADB38D /* ViewController.swift in Sources */,
 				A8FB452B22851A1000ADB38D /* AppDelegate.swift in Sources */,
+				A8FB454222851B8300ADB38D /* TripFunctions.swift in Sources */,
+				A8FB453F22851A4300ADB38D /* TripModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
